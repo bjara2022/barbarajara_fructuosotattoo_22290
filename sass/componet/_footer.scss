@@ -1,0 +1,10 @@
+/*footer*/
+.insta, #wp, #ful{
+    color: whitesmoke;
+    &:hover{
+        color: gray;
+        transform: scale(1.2);
+        transition: all 1s;
+    }
+}
+/*fin footer*/

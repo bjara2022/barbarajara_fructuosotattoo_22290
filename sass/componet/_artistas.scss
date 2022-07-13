@@ -1,0 +1,46 @@
+/*artistas*/
+.marcos{
+    .ojo{
+    margin: 5% 5% 5% 5%;
+    height: 20%;
+    width: 30%;
+    }
+    .flor{
+    height: 20%;
+    width: 10%;
+    margin: 5% 5% 5% 5%;
+    }
+    .polilla{
+    margin: 5% 5% 5% 5%;
+    height: 10%;
+    width: 15%;
+    }
+}
+.barbara{
+    .japones, .fenix{
+        height: 25%;
+        width: 20%;
+        margin: 5% 5% 5% 5%;
+        
+    } 
+    .dc{
+        height: 35%;
+        width: 25%;
+        margin: 5% 5% 5% 5%;
+    }
+    
+}
+.mas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2%;
+    &:hover{
+        color: gray;
+        transform: scale(1.2);
+        transition: all 1s;
+    }
+}
+
+
+/*fin artistas*/

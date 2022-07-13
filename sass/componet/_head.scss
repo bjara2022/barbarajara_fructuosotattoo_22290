@@ -1,0 +1,29 @@
+/*header*/
+.cabecera{
+    position: sticky;
+    top: 0;
+    & #pad{
+        padding: 0%;
+    }
+    & #random{
+        background-color: black;
+    }
+    & .cabecera__menu__logo{
+        width: 10%;
+        height: 10%;
+        display: inline;
+        float: left;
+    }
+}
+#items{
+    color: whitesmoke;
+    font-family: $general-fuente;
+    font-size: 16px;
+    &:hover{
+        color: gray;
+        transform: scale(1.5);
+        transition: all 1s;
+    }
+}
+
+/*Fin Header*/

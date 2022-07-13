@@ -1,0 +1,27 @@
+/* 
+Colores
+Cabecera  rgb(73, 72, 72) 
+Fondo rgba(0, 0, 0, 0.795)
+Links whitesmoke
+Texto beige
+Fuente
+'Nuosu SIL', serif
+*/
+@import "font";
+@import "./componet/head";
+@import "./componet/footer";
+@import "./componet/index";
+@import "./componet/nosotros";
+@import "./componet/artistas";
+
+body {
+    background-color: rgb(8, 8, 8);
+}
+.navbar-nav{
+    margin-left: 50%;
+    
+}
+a {
+    text-decoration: none;
+    color: beige;
+}

@@ -1,0 +1,15 @@
+.principal{
+    background-color: black;
+}
+.principal__h1, .artistas{
+    font-family: $general-fuente;
+    font-size: 30px;
+    color: beige;
+    text-align: center;
+    font-weight: lighter;
+}
+.principal__video{
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+}
