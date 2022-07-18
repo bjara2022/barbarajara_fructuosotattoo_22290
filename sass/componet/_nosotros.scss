@@ -8,15 +8,19 @@
     padding-top: 2%;
     padding-bottom: 2%;
     text-align: center;
-}
-.video1__inicio{
-    height: 50%;
-    width: 65%;
+    &:hover{
+        transform: scale(1.05);
+        transition: all 1s;
+    }
 }
 .video1{
     background-color: black;
     text-align: center;
     padding: 20px;
+    .video1__inicio{
+        height: 50%;
+        width: 65%;
+    }
 }
 .titulo1{
     text-align: center;
@@ -26,21 +30,20 @@
     color: whitesmoke;
     font-family: general-fuente;
 }
-
-.titulo2, .titulo3, .nombre{
-    text-align: center;
-    font-weight:normal;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    color:coral;
-    font-family: 'Nuosu SIL', serif;
-}
 .generalb{
     background-color: black;
     padding: 20px;
     text-align: center;
     margin-top: 30px;
-        .videob{
+    .generalb__titulo2{
+        text-align: center;
+        font-weight:normal;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color:coral;
+        font-family: 'Nuosu SIL', serif;
+    }
+    .generalb__titulo2__videob{
         height:60vh;
         width: 80vw;
         }
@@ -50,12 +53,21 @@
     padding: 20px;
     text-align: center;
     margin-top: 30px;
-        .videom{
+    .generalm__titulo3{
+        text-align: center;
+        font-weight:normal;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        color:coral;
+        font-family: 'Nuosu SIL', serif;
+    }
+    .generalm__titulo3__videom{
         height:60vh;
         width: 80vw;
         }
 }
 .lista{
     list-style: none;
+    padding-top: 2%;
 }
 /*fin nosotros*/

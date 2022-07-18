@@ -72,16 +72,19 @@ Fuente
   padding-bottom: 2%;
   text-align: center;
 }
-
-.video1__inicio {
-  height: 50%;
-  width: 65%;
+.parrafo:hover {
+  transform: scale(1.05);
+  transition: all 1s;
 }
 
 .video1 {
   background-color: black;
   text-align: center;
   padding: 20px;
+}
+.video1 .video1__inicio {
+  height: 50%;
+  width: 65%;
 }
 
 .titulo1 {
@@ -93,7 +96,13 @@ Fuente
   font-family: general-fuente;
 }
 
-.titulo2, .titulo3, .nombre {
+.generalb {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+.generalb .generalb__titulo2 {
   text-align: center;
   font-weight: normal;
   margin-top: 50px;
@@ -101,14 +110,7 @@ Fuente
   color: coral;
   font-family: "Nuosu SIL", serif;
 }
-
-.generalb {
-  background-color: black;
-  padding: 20px;
-  text-align: center;
-  margin-top: 30px;
-}
-.generalb .videob {
+.generalb .generalb__titulo2__videob {
   height: 60vh;
   width: 80vw;
 }
@@ -119,13 +121,22 @@ Fuente
   text-align: center;
   margin-top: 30px;
 }
-.generalm .videom {
+.generalm .generalm__titulo3 {
+  text-align: center;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: coral;
+  font-family: "Nuosu SIL", serif;
+}
+.generalm .generalm__titulo3__videom {
   height: 60vh;
   width: 80vw;
 }
 
 .lista {
   list-style: none;
+  padding-top: 2%;
 }
 
 /*fin nosotros*/
@@ -180,6 +191,15 @@ Fuente
   color: gray;
   transform: scale(1.2);
   transition: all 1s;
+}
+
+.nombre {
+  text-align: center;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: coral;
+  font-family: "Nuosu SIL", serif;
 }
 
 /*fin artistas*/
