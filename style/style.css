@@ -48,19 +48,14 @@ Fuente
 }
 
 /*fin footer*/
-.principal {
-  background-color: black;
-}
-
-.principal__h1, .artistas {
+.principal .principal__h1 {
   font-family: "Nuosu SIL", serif;
   font-size: 30px;
   color: beige;
   text-align: center;
   font-weight: lighter;
 }
-
-.principal__video {
+.principal .principal__video {
   text-align: center;
   background-color: black;
   padding: 20px;
@@ -135,6 +130,19 @@ Fuente
 
 /*fin nosotros*/
 /*artistas*/
+.artistas {
+  padding-top: 2%;
+  background-color: rgb(75, 73, 73);
+}
+.artistas .artistas__artistas1 {
+  font-family: "Nuosu SIL", serif;
+  font-size: 30px;
+  color: beige;
+  text-align: center;
+  font-weight: lighter;
+  padding-bottom: 2%;
+}
+
 .marcos .ojo {
   margin: 5% 5% 5% 5%;
   height: 20%;
