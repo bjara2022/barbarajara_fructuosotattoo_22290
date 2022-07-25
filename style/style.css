@@ -19,10 +19,17 @@ Fuente
   background-color: black;
 }
 .cabecera .cabecera__menu__logo {
-  width: 10%;
-  height: 10%;
+  width: 15%;
+  height: 15%;
   display: inline;
   float: left;
+}
+@media only screen and (min-width: 200px) and (max-width: 980px) {
+  .cabecera .cabecera__menu__logo {
+    width: 50%;
+    height: 50%;
+    display: inline;
+  }
 }
 
 #items {
@@ -46,7 +53,6 @@ Fuente
   transform: scale(1.2);
   transition: all 1s;
 }
-
 /*fin footer*/
 .principal .principal__h1 {
   font-family: "Nuosu SIL", serif;
