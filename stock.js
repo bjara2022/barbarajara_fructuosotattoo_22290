@@ -19,7 +19,7 @@ const productos = [
         nombre:"Jabón limpiador",
         precio:100,
         img:'../multimedia/imagenes/limpiador.jpeg',
-        cantidad:50
+        cantidad:70
     }
 ]
 localStorage.setItem("objeto", JSON.stringify(productos));
