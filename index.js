@@ -16,7 +16,7 @@ if (edad < "18") {
     alert ("Bienvenid@ a Fructuoso Tattoo")
 }
 
-function sumaDeproductos(producto1, producto2) {
+/*function sumaDeproductos(producto1, producto2) {
     return producto1 + producto2;
     
 }
