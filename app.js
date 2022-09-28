@@ -25,7 +25,6 @@ const mostrarProductos = (productos) => {
                 imageHeight: 400,
                 
               })
-            //alert(`Se agrego ${producto.nombre}`)
         })
     })
 }
