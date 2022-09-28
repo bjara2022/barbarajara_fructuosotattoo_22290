@@ -18,7 +18,14 @@ const mostrarProductos = (productos) => {
 
         boton.addEventListener('click', ()=> {
             carritoIndex(producto.id)
-            alert(`Se agrego ${producto.nombre}`)
+            Swal.fire({
+                title: `Se agrego ${producto.nombre}`,
+                imageUrl: `${producto.img}`,
+                imageWidth: 400,
+                imageHeight: 400,
+                
+              })
+            //alert(`Se agrego ${producto.nombre}`)
         })
     })
 }
