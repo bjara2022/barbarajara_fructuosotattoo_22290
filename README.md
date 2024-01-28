@@ -27,7 +27,7 @@ CSS3
 JavaScript
 [Otros frameworks o bibliotecas que hayas utilizado]
 Instalación
-Clona este repositorio: git clone https://github.com/tuusuario/fructuoso-tatto-web.git
+Clona este repositorio: git clone https://github.com/bjara2022/barbarajara_fructuosotattoojs_33995
 Abre index.html en tu navegador.
 Contribuidores
 Barbara Jara
